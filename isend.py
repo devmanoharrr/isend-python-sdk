@@ -1,4 +1,4 @@
-from isend.client import Client
+from client import Client
 
 class ISend:
     def __init__(self, auth_token):
