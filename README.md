@@ -11,10 +11,10 @@ pip install isend-python-sdk
 
 ## Usage
 
-from trusender import TruSender
+from isend import iSend
 
 # Initialize with your auth token
-sdk = TruSender("your_auth_token")
+sdk = iSend("your_auth_token")
 
 # Send an email
 response = sdk.send_email("WelcomeEmail", "user@example.com", {"name": "John"})
