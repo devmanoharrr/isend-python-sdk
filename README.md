@@ -25,3 +25,6 @@ print(response)
 # Send an event
 event_response = sdk.send_event("UserSignup", "user@example.com", {"property": "value"})
 print(event_response)
+
+
+<!-- Security scan triggered at 2025-09-02 04:51:27 -->
